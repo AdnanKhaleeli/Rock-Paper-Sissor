@@ -29,6 +29,6 @@ function getCompMove() {
 }
 
 function generateHTMLResult(result) {
-    let element = document.querySelector('.result');
+    let element = document.querySelector('.resultInner');
     element.innerHTML = result;
 }

@@ -21,7 +21,7 @@ body {
   }
 
   50% {
-    transform:translateX(100vw);
+    transform:translateX(calc(100vw - 4rem));
   }
 
   100% {
@@ -65,5 +65,10 @@ body {
 }
 
 .result {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
     color:white;
 }
+
+
