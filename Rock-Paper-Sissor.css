@@ -71,4 +71,14 @@ body {
     color:white;
 }
 
+.resultInner {
+    font-size: 5rem;
+}
+
+.fan {
+    color:hsl(0, 0%, 93%)
+}
+
+
+
 

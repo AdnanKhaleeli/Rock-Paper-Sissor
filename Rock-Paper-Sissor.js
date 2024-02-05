@@ -32,3 +32,11 @@ function generateHTMLResult(result) {
     let element = document.querySelector('.resultInner');
     element.innerHTML = result;
 }
+
+
+document.body.querySelector('.fan').addEventListener('mouseover',(event) => {
+   event.target.style.backgroundColor = 'blue';
+});
+document.body.querySelector('.fan').addEventListener('mouseleave',(event) => {
+    event.target.style.backgroundColor = 'black';
+ });
