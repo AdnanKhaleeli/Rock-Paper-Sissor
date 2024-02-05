@@ -8,6 +8,13 @@
     }
 }
 
+body {
+    background-color: black;
+}
+.header {
+    color:white;
+}
+
 @keyframes slideBounce {
   0% {
     transform: translateX(0px);
@@ -57,3 +64,6 @@
     animation-play-state: paused;
 }
 
+.result {
+    color:white;
+}
