@@ -1,0 +1,59 @@
+@keyframes spin {
+    from {
+        transform : rotate(odeg);
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes slideBounce {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform:translateX(100vw);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.rockImage {
+    width :200px
+}
+
+.buttons {
+    height: 200px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: yellow;
+    cursor :pointer;
+    display:inline-block;
+
+}
+
+.buttons:hover {
+    border-color: red;
+}
+
+.loading {
+    height: 100px;
+    animation: spin 1s linear 0s infinite running;
+}
+
+.animation{
+    background-color: red;
+    width : 4rem;
+    display:relative;
+    animation: slideBounce 10s linear 0s infinite running;
+}
+
+.animation:hover {
+    animation-play-state: paused;
+}
+
